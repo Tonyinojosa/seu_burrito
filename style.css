@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo-1 {
+    height: 300px;
+}
+
+.botao-entre-em-contato {
+    color: white;
+    background-color: #20c5115e;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.imagem-burrito {
+    height: 300px;
+
+}
+
+body {
+    height: 100vh;
+}
+
+.caixa-mae {
+
+    display: flex;
+    color: white;
+    align-items: start;
+    justify-content: space-around;
+    padding: 30px;
+    height: 100vh;
+}
+
+.caixa-principal {
+    width: 40%;
+
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+
+
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.link-zap img {
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.titulos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.titulos a {
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+
+}
+
+.titulos a:hover {
+    color: #c51111;
+    font-size: 22px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario-fale-conosco{
+
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    padding: 20px;
+    border-radius: 5px;
+    top: 30%;
+    left: -235px;
+    transition: left 1s ease-in-out;
+
+}
+
+.botao-faca-seu-pedido{
+    color: white;
+    background-color: #ff0000f5;
+    border-radius: 3px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    
+
+}
+
+input{
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: #18d80f;
+
+}
+.mascara-formulario{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}

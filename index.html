@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Burrito</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="mascara-formulario" onclick="esconderform()"></div>
+
+    <div class="titulos">
+        <a href="http://127.0.0.1:5500/index.html" target="_self">Início</a>
+        <a>Cardápio</a>
+        <a href="https://www.instagram.com/seu_burrito/" target="_self">Redes</a>
+        <a href="https://www.google.com/maps/place/Polo+Academia+da+Cidade+-+Jord%C3%A3o+Baixo/@-8.1369808,-34.9395152,17z/data=!3m1!4b1!4m6!3m5!1s0x7ab1e1a55f68c37:0x12e0f05504cc4ed3!8m2!3d-8.1369861!4d-34.9369403!16s%2Fg%2F11bt_jdm4j?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_self">Localização</a>
+
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="img/novoburritpo-removebg-preview.png"
+                alt="logo Seu Burrito" class="logo-1">
+            <p>
+                Seu Burrito,trazendo o melhor da culinária mexicana para você!
+            </p>
+            <p>
+                "A comida mexicana é cheia de cor, vida e música."
+            </p>
+            <button class ="botao-entre-em-contato" onclick="mostrarform()">Entre em Contato</button>
+        </div>
+
+        <div>
+            <img src="img/Mexican_Taco-removebg-preview.png" alt=""
+                class="imagem-burrito">
+        </div>
+
+    </div>
+
+    <div class="caixa-video">
+        <video src="img/videoburrito.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+
+    </div>
+
+    <a href="https://wa.me/5581987085135?text=Quero%20a%20ajuda%20da%20empresa%20Inojosa%20Climatiza%C3%A7%C3%A3o!" class="link-zap">
+        <img src="img/WhatsApp_Logo_PNG_Sem_Fundo_Transparente.png" alt="link zap">
+
+    </a>
+
+<form class="formulario-fale-conosco" action="https://formsubmit.co/luizantonioinojosa@gmail.com" method="POST">
+    <input type="text" name="nome" placeholder="Seu Nome" required>
+    <input type="text" name="endereco" placeholder="Endereço" required>
+    <input type="text" name="telefone" placeholder="Telefone Para Contato" required>
+    <textarea name="pedido" placeholder="Suas Escolhas do Cardápio" required></textarea>
+    <button type="submit" class="botao-faca-seu-pedido">Faça Seu Pedido</button>
+</form>
+
+</body>
+
+<script src="scripts.js"></script>
+
+</html>
